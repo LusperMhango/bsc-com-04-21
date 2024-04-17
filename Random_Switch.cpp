@@ -7,7 +7,7 @@ int main(){
    random_device num;
    default_random_engine generate(num());
 
-          // we create a uniform distribution object that will generate this int numbers btwn 0 and 12.
+          // we create a uniform distribution object that will generate this int numbers btwn 0 and 11
    uniform_int_distribution <> generate_From(0, 11);
 
           // a statement that prints the numbers
