@@ -12,7 +12,7 @@ int main(){
 
           // a statement that prints the numbers
     int daysUntilExpiration = generate_From(generate);
-    cout<<daysUntilExpiration<<endl;
+           // using if-else statements to show the results
    if (daysUntilExpiration <= 0) {
         cout << "Your subscription has expired." << endl;
     } else if (daysUntilExpiration == 1) {
